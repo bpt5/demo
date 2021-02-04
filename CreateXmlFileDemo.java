@@ -51,7 +51,7 @@ public class CreateXmlFileDemo {
          TransformerFactory transformerFactory = TransformerFactory.newInstance();
          Transformer transformer = transformerFactory.newTransformer();
          DOMSource source = new DOMSource(doc);
-         StreamResult result = new StreamResult(new File("C:\\cars.xml"));
+         StreamResult result = new StreamResult(new File("C:\Windows\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\workspace\java\cars.xml"));
          transformer.transform(source, result);
          
          // Output to console for testing
